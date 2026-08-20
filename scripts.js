@@ -1,0 +1,14 @@
+function hideDescription() {
+    var paragraph = document.getElementById("paragraph");
+
+    if (paragraph.style.display === "none") {
+        paragraph.style.display = "block";
+    } else {
+        paragraph.style.display = "none";
+    }
+}
+
+
+var button = document.getElementById("button");
+button.addEventListener("click", hideDescription);
+
